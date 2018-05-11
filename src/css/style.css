@@ -1,0 +1,105 @@
+.intro {
+    background: linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35 )), url('../img/slcimg1.jpg');  background-size: cover;
+    /*background-size: cover;*/
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.intro-text {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+
+.top-about {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.headshot {
+    border-radius: 50%;
+    height: 200px;
+}
+
+img {
+    height: 50px;
+}
+
+.aboutme-div {
+    min-height: 600px;
+    margin-top: 150px;
+    paddig-top: 80px;
+    text-align: center;
+}
+
+.contact-me {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.icon-div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.about-me-p {
+    line-height: 1.6rem;
+    font-family: 'Merriweather', serif;
+    text-align: start;
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.icon-link {
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+.projects-section {
+    height: 1200px;
+
+    align-items: center;
+    background-color: #fafafa;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+.proj-header {
+    margin-top: 40px;
+    align-items: center;
+    margin: auto;
+}
+
+.proj-img {
+    height: 200px;
+    text-align: center;
+}
+
+.card {
+    align-content: center;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.col {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
