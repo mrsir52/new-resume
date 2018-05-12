@@ -14,11 +14,12 @@ import jsimg from './img/javascript-original.svg'
 import bstrap from './img/bootstrap-plain.svg'
 import github from './img/github.svg'
 import graphql from './img/graphql.svg'
-import bit from './img/bitcoin.png'
+import bit from './img/bitcoin-copy.png'
 import date from './img/Timer.png'
 import food from './img/food.jpg'
 import ecomm from './img/ecomm.png'
 import swag from './img/swagger.png'
+import seconds from './img/seconds.png'
 
 
 export default class Main extends React.Component {
@@ -89,9 +90,48 @@ export default class Main extends React.Component {
                     </div>
                 </div>
                 {/*End of About me section */}
+                <div className="container projects-section">
+                    <h2 className="m-4">Projects</h2>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-12 mb-4">
+                            <img src={seconds} alt="food" className="img-fluid z-depth-1-half"/>
+                            <CardTitle className="text-center mt-3 ">
+                                Potluck Planner
+                            </CardTitle>
+                        </div>
+                        <div className="col-lg-4 col-md-6 mb-4">
+                            <img src={bit} alt="food" className="img-fluid z-depth-1-half"/>
+                        </div>
+                        <div className="col-lg-4 col-md-6 mb-4">
+                            <img src={swag} alt="food" className="img-fluid z-depth-1-half"/>
+                        </div>
 
-                <section className="projects-section">
-                    <div className="container-fluid proj-header">
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-12 mb-4">
+                            <img src={ecomm} alt="food" className="img-fluid z-depth-1-half"/>
+                            <h4 className="text-center mt-3 font-weight-bold">
+                                Potluck Planner
+                            </h4>
+                            <CardBody>
+                                <p className="grey-text">
+                                    I wanted to try firebase out. This uses the build in firebase authentication
+                                </p>
+                            </CardBody>
+
+                        </div>
+                        <div className="col-lg-4 col-md-6 mb-4">
+                            <img src={food} alt="food" className="img-fluid z-depth-1-half"/>
+                        </div>
+                        <div className="col-lg-4 col-md-6 mb-4">
+                            <img src={ecomm} alt="food" className="img-fluid z-depth-1-half"/>
+                        </div>
+
+                    </div>
+
+                </div>
+                <section className="container">
+                    <div className="proj-header">
 
                         <h2>Sample Projects</h2>
 
@@ -99,8 +139,9 @@ export default class Main extends React.Component {
                             <div className="row">
 
                                 <div className="col-md-4">
-                                    <Card className="card">
-                                        <CardImage className="img-fluid" src={date}/>
+                                    <Card>
+
+                                        <img src={ecomm} alt="food" className="img-fluid"/>
                                         <CardBody>
                                             <CardTitle>Simple React Counter</CardTitle>
                                             <CardText>This was one of the first things that I did with React. It is just
@@ -157,6 +198,8 @@ export default class Main extends React.Component {
                         </section>
 
                         <section>
+
+
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-4 col-md-12">
@@ -164,7 +207,7 @@ export default class Main extends React.Component {
                                             <div className="view overlay">
                                                 <img
                                                     src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg"
-                                                    className="card-img-top" alt="" />
+                                                    className="card-img-top" alt=""/>
                                                 <a href="#">
                                                     <div className="mask rgba-white-slight"></div>
                                                 </a>
@@ -174,7 +217,8 @@ export default class Main extends React.Component {
 
                                                 <h4 className="card-title">Card title</h4>
 
-                                                <p className="card-text">Some quick example text to build on the card title
+                                                <p className="card-text">Some quick example text to build on the card
+                                                    title
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#!" className="btn btn-primary">Button</a>
                                             </div>
@@ -185,41 +229,42 @@ export default class Main extends React.Component {
                                             <div className="view overlay">
                                                 <img
                                                     src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg"
-                                                    className="card-img-top" alt="" />
+                                                    className="card-img-top" alt=""/>
                                                 <a href="#">
                                                     <div className="mask rgba-white-slight"></div>
                                                 </a>
                                             </div>
                                             <div className="card-body">
                                                 <h4 className="card-title">Card title</h4>
-                                                <p className="card-text">Some quick example text to build on the card title
+                                                <p className="card-text">Some quick example text to build on the card
+                                                    title
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" className="btn btn-primary">Button</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6">
-                                        <div className="card">
+                                        <Card>
                                             <div className="view overlay">
                                                 <img
                                                     src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg"
-                                                    className="card-img-top" alt="" />
+                                                    className="card-img-top" alt=""/>
                                                 <a href="#">
                                                     <div className="mask rgba-white-slight"></div>
                                                 </a>
                                             </div>
-                                            <div className="card-body">
+                                            <CardBody>">
                                                 <h4 className="card-title">Card title</h4>
-                                                <p className="card-text">Some quick example text to build on the card title
+                                                <p className="card-text">Some quick example text to build on the card
+                                                    title
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" className="btn btn-primary">Button</a>
-                                            </div>
-                                        </div>
+                                            </CardBody>
+                                        </Card>
                                     </div>
                                 </div>
 
                             </div>
-
 
 
                         </section>
@@ -233,6 +278,6 @@ export default class Main extends React.Component {
                 </section>
             </div>
 
-    )
+        )
     }
-    }
+}
