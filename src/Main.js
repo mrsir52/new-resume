@@ -197,77 +197,77 @@ export default class Main extends React.Component {
                             </div>
                         </section>
 
-                        <section>
+                        {/*<section>*/}
 
 
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-lg-4 col-md-12">
-                                        <div className="card">
-                                            <div className="view overlay">
-                                                <img
-                                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg"
-                                                    className="card-img-top" alt=""/>
-                                                <a href="#">
-                                                    <div className="mask rgba-white-slight"></div>
-                                                </a>
+                            {/*<div className="container">*/}
+                                {/*<div className="row">*/}
+                                    {/*<div className="col-lg-4 col-md-12">*/}
+                                        {/*<div className="card">*/}
+                                            {/*<div className="view overlay">*/}
+                                                {/*<img*/}
+                                                    {/*src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg"*/}
+                                                    {/*className="card-img-top" alt=""/>*/}
+                                                {/*<a href="#">*/}
+                                                    {/*<div className="mask rgba-white-slight"></div>*/}
+                                                {/*</a>*/}
 
-                                            </div>
-                                            <div className="card-body">
+                                            {/*</div>*/}
+                                            {/*<div className="card-body">*/}
 
-                                                <h4 className="card-title">Card title</h4>
+                                                {/*<h4 className="card-title">Card title</h4>*/}
 
-                                                <p className="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
-                                                <a href="#!" className="btn btn-primary">Button</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="card">
-                                            <div className="view overlay">
-                                                <img
-                                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg"
-                                                    className="card-img-top" alt=""/>
-                                                <a href="#">
-                                                    <div className="mask rgba-white-slight"></div>
-                                                </a>
-                                            </div>
-                                            <div className="card-body">
-                                                <h4 className="card-title">Card title</h4>
-                                                <p className="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
-                                                <a href="#" className="btn btn-primary">Button</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6">
-                                        <Card>
-                                            <div className="view overlay">
-                                                <img
-                                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg"
-                                                    className="card-img-top" alt=""/>
-                                                <a href="#">
-                                                    <div className="mask rgba-white-slight"></div>
-                                                </a>
-                                            </div>
-                                            <CardBody>">
-                                                <h4 className="card-title">Card title</h4>
-                                                <p className="card-text">Some quick example text to build on the card
-                                                    title
-                                                    and make up the bulk of the card's content.</p>
-                                                <a href="#" className="btn btn-primary">Button</a>
-                                            </CardBody>
-                                        </Card>
-                                    </div>
-                                </div>
+                                                {/*<p className="card-text">Some quick example text to build on the card*/}
+                                                    {/*title*/}
+                                                    {/*and make up the bulk of the card's content.</p>*/}
+                                                {/*<a href="#!" className="btn btn-primary">Button</a>*/}
+                                            {/*</div>*/}
+                                        {/*</div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="col-lg-4 col-md-6">*/}
+                                        {/*<div className="card">*/}
+                                            {/*<div className="view overlay">*/}
+                                                {/*<img*/}
+                                                    {/*src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg"*/}
+                                                    {/*className="card-img-top" alt=""/>*/}
+                                                {/*<a href="#">*/}
+                                                    {/*<div className="mask rgba-white-slight"></div>*/}
+                                                {/*</a>*/}
+                                            {/*</div>*/}
+                                            {/*<div className="card-body">*/}
+                                                {/*<h4 className="card-title">Card title</h4>*/}
+                                                {/*<p className="card-text">Some quick example text to build on the card*/}
+                                                    {/*title*/}
+                                                    {/*and make up the bulk of the card's content.</p>*/}
+                                                {/*<a href="#" className="btn btn-primary">Button</a>*/}
+                                            {/*</div>*/}
+                                        {/*</div>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="col-lg-4 col-md-6">*/}
+                                        {/*<Card>*/}
+                                            {/*<div className="view overlay">*/}
+                                                {/*<img*/}
+                                                    {/*src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg"*/}
+                                                    {/*className="card-img-top" alt=""/>*/}
+                                                {/*<a href="#">*/}
+                                                    {/*<div className="mask rgba-white-slight"></div>*/}
+                                                {/*</a>*/}
+                                            {/*</div>*/}
+                                            {/*<CardBody>">*/}
+                                                {/*<h4 className="card-title">Card title</h4>*/}
+                                                {/*<p className="card-text">Some quick example text to build on the card*/}
+                                                    {/*title*/}
+                                                    {/*and make up the bulk of the card's content.</p>*/}
+                                                {/*<a href="#" className="btn btn-primary">Button</a>*/}
+                                            {/*</CardBody>*/}
+                                        {/*</Card>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
 
-                            </div>
+                            {/*</div>*/}
 
 
-                        </section>
+                        {/*</section>*/}
                         <div className="contact-me">
                             <h2>Connect with me on LinkedIn or view more of my code.</h2>
                             <a href="https://www.linkedin.com/in/manny-torres-ut/"><i
