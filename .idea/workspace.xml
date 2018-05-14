@@ -179,8 +179,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -207,23 +207,22 @@
       <workItem from="1526063583881" duration="5248000" />
       <workItem from="1526086260562" duration="1315000" />
       <workItem from="1526320957028" duration="1355000" />
-      <workItem from="1526324610762" duration="4268000" />
+      <workItem from="1526324610762" duration="4770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59891000" />
+    <option name="totallyTimeSpent" value="60393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="1408" height="805" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47478992" visible="true" weight="0.12073863" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014006" side_tool="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882352" visible="true" weight="0.32768363" />
-      <window_info active="true" id="npm" order="2" sideWeight="0.5252101" side_tool="true" visible="true" weight="0.12073863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49882352" visible="true" weight="0.32768363" />
+      <window_info id="npm" order="2" sideWeight="0.5252101" side_tool="true" visible="true" weight="0.12073863" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49859944" weight="0.32768363" />
