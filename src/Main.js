@@ -68,7 +68,8 @@ export default class Main extends React.Component {
                                 {/*troubleshoot and configure local area networks for small businesses.*/}
 
                                 In today’s business environment there is a need to collaborate with multiple departments
-                                in order to grow and succeed. I believe with my recent training in web development and previous technical
+                                in order to grow and succeed. I believe with my recent training in web development and
+                                previous technical
                                 experience combined with my ability to communicate effectively I will be an
                                 asset to any team in need of a well-rounded individual.
                             </h6>
@@ -98,18 +99,18 @@ export default class Main extends React.Component {
                     <div className="container">
 
                         {/*<div className="row">*/}
-                            {/*<div className="col-lg-4 col-md-12 mb-4">*/}
-                                {/*<img src={seconds} alt="food" className="img-fluid z-depth-1-half"/>*/}
-                                {/*<CardTitle className="text-center mt-3 ">*/}
-                                    {/*Potluck Planner*/}
-                                {/*</CardTitle>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-lg-4 col-md-6 mb-4">*/}
-                                {/*<img src={bit} alt="food" className="img-fluid z-depth-1-half"/>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-lg-4 col-md-6 mb-4">*/}
-                                {/*<img src={swag} alt="food" className="img-fluid z-depth-1-half"/>*/}
-                            {/*</div>*/}
+                        {/*<div className="col-lg-4 col-md-12 mb-4">*/}
+                        {/*<img src={seconds} alt="food" className="img-fluid z-depth-1-half"/>*/}
+                        {/*<CardTitle className="text-center mt-3 ">*/}
+                        {/*Potluck Planner*/}
+                        {/*</CardTitle>*/}
+                        {/*</div>*/}
+                        {/*<div className="col-lg-4 col-md-6 mb-4">*/}
+                        {/*<img src={bit} alt="food" className="img-fluid z-depth-1-half"/>*/}
+                        {/*</div>*/}
+                        {/*<div className="col-lg-4 col-md-6 mb-4">*/}
+                        {/*<img src={swag} alt="food" className="img-fluid z-depth-1-half"/>*/}
+                        {/*</div>*/}
 
                         {/*</div>*/}
                         <div className="row">
@@ -122,7 +123,8 @@ export default class Main extends React.Component {
                                 </h4>
                                 <CardBody>
                                     <p className="grey-text">
-                                        This is one of the first projects that I started working on. It is a front end only sample store built using React and bootstrap.
+                                        This is one of the first projects that I started working on. It is a front end
+                                        only sample store built using React and bootstrap.
                                     </p>
                                     <a href="https://github.com/mrsir52/E-Commerce">
                                         <Button color="primary" size="sm">View Code</Button>
@@ -139,15 +141,15 @@ export default class Main extends React.Component {
                                 </h4>
                                 <CardBody>
                                     <p className="grey-text">
-                                        I wanted to try firebase out so I made a quick project. This is a full stack application that usese React for the front end and
-                                        Firebase for the back. It also uses the built in authentication options included with Firebase.
+                                        I wanted to try firebase out so I made a quick project. This is a full stack
+                                        application that usese React for the front end and
+                                        Firebase for the back. It also uses the built in authentication options included
+                                        with Firebase.
                                     </p>
                                     <a href="https://github.com/mrsir52/potluck-test">
                                         <Button color="primary" size="sm">View Code</Button>
                                     </a>
                                 </CardBody>
-
-
 
                             </div>
                             <section className="container">
@@ -156,20 +158,21 @@ export default class Main extends React.Component {
                                         <h2 className="mt-5">Connect with me on LinkedIn or view more of my code.</h2>
                                         <a href="https://www.linkedin.com/in/manny-torres-ut/"><i
                                             className="fab fa-linkedin icon-link"></i></a>
-                                        <a href="https://github.com/mrsir52"><i className="fab fa-github-square icon-link"></i></a>
+                                        <a href="https://github.com/mrsir52"><i
+                                            className="fab fa-github-square icon-link"></i></a>
                                     </div>
                                 </div>
                             </section>
                             {/*<div className="col-lg-4 col-md-12 mb-4">*/}
-                                {/*<img src={fe} alt="food" className="img-fluid z-depth-1-half"/>*/}
-                                {/*<h4 className="text-center mt-3 font-weight-bold">*/}
-                                    {/*Potluck Planner*/}
-                                {/*</h4>*/}
-                                {/*<CardBody>*/}
-                                    {/*<p className="grey-text">*/}
-                                        {/*I wanted to try firebase out. This uses the build in firebase authentication*/}
-                                    {/*</p>*/}
-                                {/*</CardBody>*/}
+                            {/*<img src={fe} alt="food" className="img-fluid z-depth-1-half"/>*/}
+                            {/*<h4 className="text-center mt-3 font-weight-bold">*/}
+                            {/*Potluck Planner*/}
+                            {/*</h4>*/}
+                            {/*<CardBody>*/}
+                            {/*<p className="grey-text">*/}
+                            {/*I wanted to try firebase out. This uses the build in firebase authentication*/}
+                            {/*</p>*/}
+                            {/*</CardBody>*/}
 
                             {/*</div>*/}
                         </div>
